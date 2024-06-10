@@ -45,7 +45,7 @@
         />
       </svg>
     </div>
-    <div id="stage-title" :style="currentScene?.getTitleStyle() || ''">
+    <!-- <div id="stage-title" :style="currentScene?.getTitleStyle() || ''">
       {{ currentScene?.getTitle() || '' }}
       <a
         class="code"
@@ -67,7 +67,7 @@
           />
         </svg>
       </a>
-    </div>
+    </div> -->
   </div>
 </template>
 
