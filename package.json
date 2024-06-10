@@ -4,7 +4,7 @@
   "main": "dist/echarts-www-landing-animation.js",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "build:gh": "tsc && vite build --base=echarts-www-landing-animation --config gh/vite.config.ts",
     "serve": "vite preview",
     "prepublishOnly": "npm run build"
