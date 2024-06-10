@@ -13,12 +13,12 @@ export default defineConfig({
     cssCodeSplit: false,
     chunkSizeWarningLimit: 1500,
 
-    lib: {
-      entry: path.resolve(__dirname, './src/main.ts'),
-      formats: ['umd'],
-      name: 'landingAnimation',
-      fileName: (formats) => 'echarts-www-landing-animation.js',
-    },
+    // lib: {
+    //   entry: path.resolve(__dirname, './src/main.ts'),
+    //   formats: ['umd'],
+    //   name: 'landingAnimation',
+    //   fileName: (formats) => 'echarts-www-landing-animation.js',
+    // },
 
     // rollupOptions: {
     //   plugins: [
