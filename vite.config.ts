@@ -5,6 +5,7 @@ import viteConfigCommon from './vite.config.common';
 // import visualizer from 'rollup-plugin-visualizer';
 
 export default defineConfig({
+  base: './',
   server: {
     hmr: false,
   },
